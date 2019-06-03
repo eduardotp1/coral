@@ -1,0 +1,10 @@
+rotina countdown(n como inteiro)
+    se n>0 entao
+        imprimi n
+        faca countdown(n-1)
+    fim se
+fim rotina
+
+rotina main()
+    faca countdown(5)
+fim rotina

@@ -1,0 +1,46 @@
+Sintaxe da coral na Forma de Backus-Naur
+
+<definicao de funcao> ::= se chamar <nome da funcao> faca <alguma coisa> retorne <resultado>
+
+<chamada da funcao> ::=faca <nome da funcao>
+
+<retorno resultado> ::= devolva <nome variavel>
+			| faca <nome da funcao>
+
+<tipo variavel> ::= void
+                   | char
+                   | short
+                   | int
+                   | long
+                   | float
+                   | double
+                   | signed
+                   | unsigned
+
+<valor variavel> ::=valor de <nome variavel> eh <valor> do tipo <tipo valor> 
+
+
+<operacoes> ::= =
+                        | *=
+                        | /=
+                        | %=
+                        | +=
+                        | -=
+                        | <<=
+                        | >>=
+                        | &=
+                        | ^=
+                        | |=
+
+
+<operador unario> ::= &
+                   | *
+                   | +
+                   | -
+                   | ~
+                   | !
+
+<tarefa condicional> ::= se ( <condicao>  ) faca <tarefa>
+                        | se ( <condicao> ) faca <tarefa> senao <tarefa>
+
+<tarefa repetidora> ::= enquanto ( <condicao> ) faca <tarefa>
